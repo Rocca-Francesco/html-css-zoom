@@ -1,10 +1,3 @@
-.spettatori {
-    position: relative;
-    background-color: black;
-    width: 100vw;
-    height: calc(100vh - 70px);
-}
-
 .spettatori-impostazioni a {
     position: absolute;
     right: 5px;
@@ -29,5 +22,34 @@
 }
 
 /* vista schermata spettatori */
+.spettatori {
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    max-height: calc(100vh - 70px);
+    padding: 30px 30px 10px 30px;
 
-.spettatori-view {}
+    flex-wrap: wrap;
+
+}
+
+.spettatori-view {
+    position: relative;
+    width: calc(100% / 7 - 60px);
+    margin: 0px 5px 10px 0px;
+}
+
+
+.mic-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: lightgray;
+}
+
+/* comandi sotto */
+
+.gestione-personale {
+    display: flex;
+}
