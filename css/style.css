@@ -1,0 +1,33 @@
+.spettatori {
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.spettatori-impostazioni a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.speaker {
+    right: 20px;
+    top: 5px;
+}
+
+.gestione-personale {
+    height: 70px;
+    width: 100vw;
+}
+
+/* vista schermata spettatori */
+
+.spettatori-view {}
